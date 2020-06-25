@@ -145,8 +145,8 @@ if show:
 print("Simulating SR_SIR")
 np.random.seed(4)
 
-beta_list = [1, 4]
-vaccine_start_list = [1, 4]
+beta_list = [1, 3]
+vaccine_start_list = [4, 12]
 
 
 recovery_process = ss.erlang(a = 3)
